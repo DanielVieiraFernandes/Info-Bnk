@@ -35,6 +35,4 @@ O InfoBnk é um aplicativo que conecta usuários a informações e serviços rel
 3. **Executar o Projeto**:
    - Inicie o aplicativo com `npm start`.
 
----
 
-Sinta-se à vontade para ajustar qualquer parte do documento conforme necessário!
