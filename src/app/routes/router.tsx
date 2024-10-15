@@ -1,12 +1,12 @@
 import React, { useContext } from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { AppStack } from "./loginStack";
+import { AppStack } from "./appStack";
 import { AuthStack } from "./authStack";
-import { AuthContext } from "../context/auth";
+import { AuthContext, AuthContextType } from "../context/auth";
 
 export function Router() {
 
-  const {user} = useContext(AuthContext)
+  const {user} = useContext<AuthContextType>(AuthContext)
 
   
   return (

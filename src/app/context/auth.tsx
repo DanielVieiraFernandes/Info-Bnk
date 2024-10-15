@@ -3,9 +3,8 @@ import auth, { FirebaseAuthTypes } from "@react-native-firebase/auth";
 import { ViewProps } from "react-native";
 
 
-interface AuthContextType {
-  user: FirebaseAuthTypes.User | null;
-  setUser: React.Dispatch<React.SetStateAction<FirebaseAuthTypes.User | null>>;
+export interface AuthContextType {
+  user: FirebaseAuthTypes.User | null 
 }
 
 export const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -26,7 +25,7 @@ export const AuthProvider: React.FC = ({ children }: ViewProps) => {
   if (initializing) return null;
 
   return (
-    <AuthContext.Provider value={{ user, setUser }}>
+    <AuthContext.Provider value={{ user }}>
       {children}
     </AuthContext.Provider>
   );

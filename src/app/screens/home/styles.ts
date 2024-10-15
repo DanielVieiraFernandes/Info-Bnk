@@ -4,11 +4,11 @@ import { theme } from "../../../theme";
 export const styles = StyleSheet.create({
     container:{
         flex: 1,
-        justifyContent: 'space-between',
+        justifyContent: 'space-around'
     },
     textAuth: {
         textAlign: 'center',
-        fontFamily: theme.fontFamily.medium,
+        fontFamily: theme.fontFamily.bold,
         fontSize: 20,
         
     },
@@ -18,8 +18,7 @@ export const styles = StyleSheet.create({
         height: 50,
         borderRadius: 30,
     },
-    contain:{
-        flex: 1,
-        justifyContent: 'center'
+    txtContain:{
+        alignItems: 'center'
     }
 })
