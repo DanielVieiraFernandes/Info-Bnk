@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "438958182948",
+    "project_id": "fluxo-172b0",
+    "storage_bucket": "fluxo-172b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438958182948:android:1ff7aca7b6757850377eb1",
+        "android_client_info": {
+          "package_name": "com.daniel_dev17.fluxoFirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP06qigGL1AICjEAhHdp4g-7IpoYCYvVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
