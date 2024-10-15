@@ -1,7 +1,3 @@
-Aqui está uma documentação básica para o seu projeto **InfoBnk**:
-
----
-
 # InfoBnk
 
 ## Descrição
